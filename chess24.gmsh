@@ -1,0 +1,252 @@
+<document unique_id="8AEC0B55-4826-4EED-94FD-2B8850999DB0" version="6" os="macosx" original_document_path="/Users/pepellou/Workspace/twitch/chess24.gmsh">
+	<open_windows>
+		<vamWindowGlass frame="-1631,-109,-104,836" asset_icon_scale="0.6" asset_icon_updateFPS="15" selected_layer="1836282929" vam_main_splitter="0.65" scale="1"/>
+	</open_windows>
+	<vam_state master_audio_shown="1010" preview_audio_monitor="0" master_audio_monitor="1" show_preview_edit_panel="1" preview_shown="1" live_shown="1" transition_0_unique_id="-- CUT --" transition_1_unique_id="-- SMOOTH --" transition_2_unique_id="-- SMOOTH --" live_preview_split_open_percent="0.75"/>
+	<transition_data/>
+	<chroma_key_data/>
+	<advanced_output>
+		<output_list output_last_selected="E6BD4822-1FA3-4C2C-B80D-CEF398B46311">
+			<output output_enabled="1" output_type="1" output_url="/Users/pepellou/Movies/MyStream.mp4" output_autoinfilename="1" output_branding="Record To Disk MP4 Brand" output_display_name="Record To Disk - MP4" output_display_group_name="Record To Disk - MP4" output_settings_complete="1" output_presetname="Twitch: 720p30 x264 (1250 Kbps)" output_guid="D0794FFD-8574-4676-9277-DEDF325A6CF0" output_id="D0794FFD-8574-4676-9277-DEDF325A6CF0" unique_id="1"/>
+			<output output_id="E6BD4822-1FA3-4C2C-B80D-CEF398B46311" output_type="2" output_branding="Twitch" output_url="rtmp://live-lhr.twitch.tv/app" destination_location_id="GW58o/bq+lMkAorFfYebgoGrIBTF9jIXu1/GpRZx0190" twitch_channel_name="pepellou" output_display_group_name="Twitch" output_settings_complete="1" output_location="live_131479743_7boDe2y8MzmFMYwa3YNG9gmchjG4mJ" output_enabled="1" output_presetname="Twitch: 720p30 x264 (1250 Kbps)" output_guid="E6BD4822-1FA3-4C2C-B80D-CEF398B46311" output_display_name="live_131479743_7boDe2y8MzmFMYwa3YNG9gmchjG4mJ" unique_id="2">
+				<twitch/>
+			</output>
+			<output replay_quality="standard" replay_audio_enabled="0" replay_record_folder="/Users/pepellou/Movies" replay_limit_record_duration="1" replaydialog_record_unit="1" replay_max_record_duration="60000" replay_shot_default_duration="30" replay_create_in_layer="1" replay_create_in_playlist="" replay_show_preview="1" replay_shot_template_asset_id="" replay_create_from_template="0" replay_activate_on_broadcast="0" replay_activate_on_record="0" replay_prompt_delete_shot="1" replay_keep_record_on_delete_shot="0" replay_mute_audio="0" replay_program_replay_enabled="1" output_guid="4579492D-50A0-4364-9A5F-3163F816868B" output_presetname="4579492D-50A0-4364-9A5F-3163F816868B" output_type="6" output_enabled="1" unique_id="3"/>
+		</output_list>
+	</advanced_output>
+	<output_presets>
+		<preset output_presetname="Twitch: 720p30 x264 (1250 Kbps)" show_in_gui="1" group="Twitch">
+			<movie format="Flash" output_system="">
+				<track type="1986618479" mo_width="1280" mo_height="720" colourspace="846624121" mo_enabled="1" codecname="x264" fps="30" compressed="1" timescale="3000" target_bit_rate="1250" profile="1835100526" limit_bit_rate="0" key_frame_rate="60" timecode_interval="30" timecode_on="0" FlashVideoDisableH264BFrames="0" codec_quality="" x264_gpu_on="0" x264_commandline="--vbv-bufsize 2000" absolute_time_stamps="0" key_frame_aligned="0" strict_cbr="1" main_concept="1"/>
+				<track type="1635083375" bps="16" busses="1" channels="2" samplerate="44100" mo_enabled="1" codecname="MPEG-4 Audio" target_bit_rate="128" timescale="44100"/>
+			</movie>
+		</preset>
+		<preset output_presetname="4579492D-50A0-4364-9A5F-3163F816868B" show_in_gui="0" group="Replay">
+			<movie format="Replay" output_system="replay">
+				<track type="1986618479" mo_width="640" mo_height="480" colourspace="846624121" mo_enabled="1" codecname="H.264" fps="30" compressed="1" timescale="3000" target_bit_rate="500" profile="1835100526" limit_bit_rate="0" key_frame_rate="240" timecode_interval="30" timecode_on="0" FlashVideoDisableH264BFrames="0" codec_quality="" x264_gpu_on="0" x264_commandline="" absolute_time_stamps="0" key_frame_aligned="0" strict_cbr="0" main_concept="1"/>
+				<track type="1635083375" bps="16" busses="1" channels="2" samplerate="44100" mo_enabled="1" codecname="MPEG-4 Audio" target_bit_rate="128" timescale="44100"/>
+			</movie>
+		</preset>
+	</output_presets>
+	<iso_outputs>
+		<xml_tag/>
+	</iso_outputs>
+	<multimonitor/>
+	<volume value="1"/>
+	<preview_volume value="1"/>
+	<auto_live value="0"/>
+	<flip_flop value="0"/>
+	<output_annotations/>
+	<transition_duration/>
+	<visual_style/>
+	<single_output/>
+	<media_directories import_images_default_dir="/Users/pepellou/Pictures" import_music_default_dir="/Users/pepellou/Music" import_video_default_dir="/Users/pepellou/Pictures/Screenshots"/>
+	<layer_names/>
+	<layer_scales layer_0="0.5" layer_1="0.5" layer_2="0.5" layer_3="0.5" layer_4="0.5"/>
+	<layer_visible/>
+	<sections/>
+	<aspectRatio type="1098216515"/>
+	<shot_key_map/>
+	<shotsLiveWhenSaved>
+		<xml_tag vaLayerIndex="0" beLayerEnum="1" vaLayerEnum="1836282928" unique_id="342D238E-8D44-4268-A809-4F9EB7D4221D_shot"/>
+		<xml_tag vaLayerIndex="1" beLayerEnum="2" vaLayerEnum="1836282929" unique_id="98E61744-E09B-46AA-8EFE-CCED5F64E0F1"/>
+		<xml_tag vaLayerIndex="2" beLayerEnum="3" vaLayerEnum="1836282930" unique_id="64A38A8B-14A2-4DE2-A72E-6C12587852BB_shot"/>
+	</shotsLiveWhenSaved>
+	<source_sdk_settings>
+		<xml_tag SOURCE_SDK_ID_DOC="pc-capture~31D77434-C45D-4A2D-8558-A8560CA49C0E">
+			<settings unique_id="1" output_guid="826485B4-18AF-4C96-8210-8DC1ECC06435">
+				<parameter name="Type" value="1"/>
+				<parameter name="cursor" value="false"/>
+				<parameter name="capture_audio" value="false"/>
+				<parameter name="capture_video" value="true"/>
+				<parameter name="capture_window" value="Blomqvist, Erik vs. Vachier-Lagrave, Maxime | Tradewise Gibraltar Masters | 2018 | chess24.com"/>
+				<parameter name="capture_app" value="Google Chrome"/>
+				<parameter name="capture_game_fullscreen" value="false"/>
+				<parameter name="capture_monitor" value="0"/>
+				<parameter name="capture_monitor_region" value="0,0,-1,-1"/>
+				<parameter name="capture_monitor_state" value="0"/>
+			</settings>
+		</xml_tag>
+		<xml_tag SOURCE_SDK_ID_DOC="pc-capture~93F16FF6-51A7-4119-8772-CCFE4EF2A1D3">
+			<settings>
+				<parameter name="Type" value="1"/>
+				<parameter name="cursor" value="true"/>
+				<parameter name="capture_audio" value="true"/>
+				<parameter name="capture_video" value="true"/>
+				<parameter name="capture_game_fullscreen" value="false"/>
+				<parameter name="capture_monitor" value="0"/>
+				<parameter name="capture_monitor_region" value="0,0,-1,-1"/>
+				<parameter name="capture_monitor_state" value="0"/>
+			</settings>
+		</xml_tag>
+	</source_sdk_settings>
+	<social_media/>
+	<source_configurations>
+		<source unique_id="pc-capture~93F16FF6-51A7-4119-8772-CCFE4EF2A1D3" factoryGUID="DBCA7191-2958-80F8-31D4-5F1379D8E53F" manuallyAddedSource="1" localizedDisplayName="Screen Capture 0" localizedGroupingName="Screen Capture" hasAudio="1" hasVideo="1" groupGUID="DBCA7191-2958-80F8-31D4-5F1379D8E53F" prettyname="chess24">
+			<xml_tag sourceId="93F16FF6-51A7-4119-8772-CCFE4EF2A1D3" isGameshow="1" isUstream="0" deviceId="pc-capture" input_channel_selection="0" monitor_selection="0"/>
+		</source>
+		<source unique_id="C0D52593-CBF8-411D-8FF6-F9B8A1C990FF" factoryGUID="D82F793C-6F5B-3376-F53B-EF2ED8CE7F28" manuallyAddedSource="1" localizedDisplayName="Solid Color" localizedGroupingName="Solid Color" hasAudio="0" hasVideo="1" groupGUID="D82F793C-6F5B-3376-F53B-EF2ED8CE7F28" prettyname="White">
+			<xml_tag widget_settings="{&quot;id&quot;:57,&quot;gradientEnabled&quot;:false,&quot;gradientType&quot;:0,&quot;gradientAngle&quot;:&quot;0&quot;,&quot;solidEnabled&quot;:true,&quot;colors&quot;:{&quot;backgroundColor&quot;:&quot;#ffffff&quot;,&quot;gradientColor1&quot;:&quot;#ffffff&quot;,&quot;gradientColor2&quot;:&quot;#000000&quot;},&quot;_runtime&quot;:{&quot;geometry&quot;:{&quot;width&quot;:250,&quot;height&quot;:258}},&quot;_renderer&quot;:{&quot;width_constrained&quot;:true,&quot;height_constrained&quot;:true,&quot;client_width&quot;:640,&quot;client_height&quot;:480}}" isGameshow="1" isUstream="0" web_width="640" web_height="480" title="Solid Color" web_url="file:///Applications/Gameshow.app/Contents/PlugIns/Sources/WidgetSDK/solid_color/solid-color.html" web_transparent="1" web_override_css="" web_shutdown_when_inactive="0"/>
+		</source>
+		<source unique_id="5097517C-A032-42C5-A01F-5356B2E00308" factoryGUID="065AA36C-9BD0-3D93-5164-D2CAF0B49CEC" manuallyAddedSource="1" localizedDisplayName="Chat" localizedGroupingName="Chat" hasAudio="0" hasVideo="1" groupGUID="065AA36C-9BD0-3D93-5164-D2CAF0B49CEC" prettyname="Chat 1">
+			<xml_tag widget_settings="{&quot;id&quot;:96,&quot;fontSelection&quot;:&quot;Arial, Helvetica, sans-serif&quot;,&quot;fontSize&quot;:&quot;In Points&quot;,&quot;fontSizeInPoints&quot;:&quot;16&quot;,&quot;fontWeight&quot;:&quot;700&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;fontVariant&quot;:&quot;normal&quot;,&quot;webFontUrl&quot;:&quot;http://fonts.googleapis.com/css?family=Cinzel:400,700&quot;,&quot;systemFont&quot;:&quot;Arial&quot;,&quot;colors&quot;:{&quot;chatBackgroundColor&quot;:&quot;rgba(100, 100, 100, 0)&quot;,&quot;chatNameColor&quot;:&quot;#fffebb&quot;,&quot;chatMessageColor&quot;:&quot;#ffffff&quot;},&quot;ChatNameSeperateLine&quot;:false,&quot;OverrideMessageColor&quot;:false,&quot;OverrideChatNameColor&quot;:false,&quot;_template_exclude&quot;:[],&quot;_renderer&quot;:{&quot;width_constrained&quot;:true,&quot;height_constrained&quot;:true,&quot;client_width&quot;:320,&quot;client_height&quot;:200},&quot;_runtime&quot;:{&quot;geometry&quot;:{&quot;width&quot;:250,&quot;height&quot;:321}}}" isGameshow="1" isUstream="0" web_width="530" web_height="400" title="Chat" web_url="file:///Applications/Gameshow.app/Contents/PlugIns/Sources/WidgetSDK/general_chat/chat_entry.html" web_transparent="1" web_override_css="" web_shutdown_when_inactive="0"/>
+		</source>
+		<source unique_id="3ACA4173-B8CB-4C7C-8482-FEB58B84E7AA" factoryGUID="8EA513AF-05F7-F3AE-7C93-865E8673F62C" manuallyAddedSource="1" localizedDisplayName="StreamLabs (TwitchAlerts)" localizedGroupingName="StreamLabs (TwitchAlerts)" hasAudio="0" hasVideo="1" groupGUID="8EA513AF-05F7-F3AE-7C93-865E8673F62C" prettyname="StreamLabs (TwitchAlerts) 1">
+			<xml_tag widget_settings="{&quot;id&quot;:94,&quot;fontSelection&quot;:&quot;Impact, Charcoal, sans-serif&quot;,&quot;fontSize&quot;:&quot;In Points&quot;,&quot;fontSizeInPoints&quot;:72,&quot;fontWeight&quot;:400,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;fontVariant&quot;:&quot;normal&quot;,&quot;webFontUrl&quot;:&quot;http://fonts.googleapis.com/css?family=Cinzel:400,700&quot;,&quot;systemFont&quot;:&quot;Arial&quot;,&quot;textLayout&quot;:&quot;Vertical&quot;,&quot;justify_content&quot;:&quot;flex-start&quot;,&quot;align_items&quot;:&quot;flex-start&quot;,&quot;scrolling&quot;:{&quot;enabled&quot;:false,&quot;animation&quot;:&quot;Non Stop&quot;,&quot;direction&quot;:&quot;NATURAL&quot;,&quot;speed&quot;:30,&quot;slidetime&quot;:0.6428,&quot;holdtime&quot;:3,&quot;autoreverse&quot;:false},&quot;colors&quot;:{&quot;headingColor&quot;:&quot;#ff7f9f&quot;,&quot;listingColor&quot;:&quot;#ffffff&quot;,&quot;backgroundColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;},&quot;WIDGETTYPE_ALERT_BOX&quot;:&quot;Alert Box&quot;,&quot;WIDGETTYPE_DONATION_GOAL&quot;:&quot;Donation Goal&quot;,&quot;WIDGETTYPE_DONATION_TICKER&quot;:&quot;Donation Ticker&quot;,&quot;WIDGETTYPE_CHAT_BOX&quot;:&quot;Chat Box&quot;,&quot;WIDGETTYPE_EVENT_LIST&quot;:&quot;Event List&quot;,&quot;advancedAPIkey&quot;:&quot;714A2C991F7AE23DE2B2&quot;,&quot;username&quot;:&quot;&quot;,&quot;twitchAlertType&quot;:&quot;Alert Box&quot;,&quot;alertType&quot;:&quot;Follows&quot;,&quot;_template_exclude&quot;:[&quot;advancedAPIkey&quot;],&quot;follows&quot;:true,&quot;subscriptions&quot;:true,&quot;donations&quot;:true,&quot;hosts&quot;:true,&quot;_renderer&quot;:{&quot;width_constrained&quot;:true,&quot;height_constrained&quot;:true,&quot;client_width&quot;:640,&quot;client_height&quot;:480},&quot;_runtime&quot;:{&quot;geometry&quot;:{&quot;width&quot;:122,&quot;height&quot;:356}}}" isGameshow="1" isUstream="0" web_width="640" web_height="480" title="StreamLabs (TwitchAlerts)" web_url="file:///Applications/Gameshow.app/Contents/PlugIns/Sources/WidgetSDK/twitchalerts/twichalerts.html" web_transparent="1" web_override_css="" web_shutdown_when_inactive="0"/>
+		</source>
+		<source unique_id="pc-capture~31D77434-C45D-4A2D-8558-A8560CA49C0E" factoryGUID="DBCA7191-2958-80F8-31D4-5F1379D8E53F" manuallyAddedSource="1" localizedDisplayName="Screen Capture 1" localizedGroupingName="Screen Capture" hasAudio="1" hasVideo="1" groupGUID="DBCA7191-2958-80F8-31D4-5F1379D8E53F" prettyname="Round">
+			<xml_tag sourceId="31D77434-C45D-4A2D-8558-A8560CA49C0E" isGameshow="1" isUstream="0" deviceId="pc-capture"/>
+		</source>
+		<source unique_id="970A0BFE-A691-45A9-BD5A-F27A136C06E9" factoryGUID="508D5209-D017-B9F7-CC2C-F85260449272" manuallyAddedSource="1" localizedDisplayName="Text" localizedGroupingName="Text" hasAudio="0" hasVideo="1" groupGUID="508D5209-D017-B9F7-CC2C-F85260449272" prettyname="Be right back">
+			<xml_tag widget_settings="{&quot;id&quot;:100,&quot;fontSelection&quot;:&quot;Impact, Charcoal, sans-serif&quot;,&quot;fontSize&quot;:&quot;In Points&quot;,&quot;fontSizeInPoints&quot;:&quot;72&quot;,&quot;fontWeight&quot;:&quot;400&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;fontVariant&quot;:&quot;normal&quot;,&quot;webFontUrl&quot;:&quot;http://fonts.googleapis.com/css?family=Cinzel:400,700&quot;,&quot;systemFont&quot;:&quot;Arial&quot;,&quot;gradientEnabled&quot;:false,&quot;gradientType&quot;:0,&quot;gradientAngle&quot;:&quot;0&quot;,&quot;solidEnabled&quot;:false,&quot;shadowOffsetAngle&quot;:&quot;0&quot;,&quot;shadowOffsetRadius&quot;:&quot;0&quot;,&quot;shadowBlur&quot;:&quot;0&quot;,&quot;shadowEnabled&quot;:false,&quot;textLayout&quot;:&quot;Vertical&quot;,&quot;justify_content&quot;:&quot;flex-start&quot;,&quot;align_items&quot;:&quot;flex-start&quot;,&quot;scrolling&quot;:{&quot;enabled&quot;:false,&quot;animation&quot;:&quot;Non Stop&quot;,&quot;direction&quot;:&quot;NATURAL&quot;,&quot;speed&quot;:&quot;30&quot;,&quot;slidetime&quot;:&quot;0.6428&quot;,&quot;holdtime&quot;:&quot;3&quot;,&quot;autoreverse&quot;:false},&quot;colors&quot;:{&quot;listingColor&quot;:&quot;#000000&quot;,&quot;backgroundColor&quot;:&quot;rgba(0, 0, 0, 0)&quot;,&quot;shadowColor&quot;:&quot;#000000&quot;,&quot;gradientColor1&quot;:&quot;#ffffff&quot;,&quot;gradientColor2&quot;:&quot;#000000&quot;},&quot;linewrap&quot;:true,&quot;wrap_option_id&quot;:&quot;WORD_WRAP&quot;,&quot;_template_exclude&quot;:[&quot;text_filepath&quot;],&quot;text_source&quot;:&quot;TEXT&quot;,&quot;transition&quot;:false,&quot;transition_id&quot;:&quot;CROSS_FADE&quot;,&quot;transition_sec&quot;:&quot;0.5&quot;,&quot;_renderer&quot;:{&quot;width_constrained&quot;:false,&quot;height_constrained&quot;:false,&quot;client_width&quot;:640,&quot;client_height&quot;:480,&quot;geometry&quot;:{&quot;width&quot;:478,&quot;height&quot;:234},&quot;constrained_geometry&quot;:{&quot;width&quot;:410,&quot;height&quot;:468},&quot;constrained_width_geometry&quot;:{&quot;width&quot;:640,&quot;height&quot;:234}},&quot;_runtime&quot;:{&quot;geometry&quot;:{&quot;width&quot;:250,&quot;height&quot;:924}},&quot;text&quot;:&quot;JUMyJUEwJTIwRW5zZWd1aWRhJTIwJUMyJUEwJTBBJUMyJUEwJTIwdnVlbHZvJUUyJTgwJUE2JTIwJUMyJUEwJTBB&quot;}" isGameshow="1" isUstream="0" web_width="640" web_height="480" constrained_width="640" constrained_height="480" title="Text" web_url="file:///Applications/Gameshow.app/Contents/PlugIns/Sources/WidgetSDK/text/text.html" web_transparent="1" web_override_css="" web_shutdown_when_inactive="0"/>
+		</source>
+	</source_configurations>
+	<document_thumbnail thumbnail="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"/>
+	<game_overlay_position/>
+	<screename value="pepellou"/>
+	<assets>
+		<asset name="Clear Layer" unique_id="161631BF-8A18-4B85-A647-9857F7D00A06_shot" type="shot" media-type="9" vam_state="1" created_for_layer="5" blank_shot="1"/>
+		<asset name="Clear Layer" unique_id="70934717-3961-4EAF-8D4E-5FC4205893B5_shot" type="shot" media-type="9" vam_state="1" created_for_layer="1" blank_shot="1" sort_on_overlay="0"/>
+		<asset name="Clear Layer" unique_id="0A092065-20CA-4ADD-A868-954AB2EDA092_shot" type="shot" media-type="9" vam_state="1" created_for_layer="2" blank_shot="1"/>
+		<asset name="Clear Layer" unique_id="EE572CCF-A9E5-427A-937A-0CDEFF8AF818_shot" type="shot" media-type="9" vam_state="1" created_for_layer="3" blank_shot="1"/>
+		<asset name="Clear Layer" unique_id="10F35F6B-A27B-43C7-BF4E-BF5F6C4C28EA_shot" type="shot" media-type="9" vam_state="1" created_for_layer="4" blank_shot="1"/>
+		<asset media-type="3" type="vaSourcesManager" url="vaSourcesManager::URL" unique_id="System Device~USB PnP Sound Device Audio" name="USB PnP Sound Device Audio" video_tracks="0" audio_tracks="1" raster_type="0" sourceGUID="72550C07-A0B9-9E0A-FFBA-EF9F137860D6"/>
+		<asset name="Game" unique_id="1A23BE60-8C42-4A64-8A6B-D4CE2D0E2605_shot" type="shot" media-type="9" vam_state="8" created_for_layer="1" video_tracks="5" still_image_tracks="0" alpha_track_count="5" veil_track_count="0" audio_tracks="3" sort_on_overlay="3"/>
+		<asset media-type="4" type="vaSourcesManager" url="vaSourcesManager::URL" unique_id="pc-capture~93F16FF6-51A7-4119-8772-CCFE4EF2A1D3" name="chess24" video_tracks="1" audio_tracks="1" alpha_track_count="1" square_pixel_height="2354" square_pixel_width="2240" sourceGUID="DBCA7191-2958-80F8-31D4-5F1379D8E53F" raster_type="0"/>
+		<asset media-type="2" type="vaSourcesManager" url="vaSourcesManager::URL" unique_id="System Device~FaceTime HD Camera Video" name="FaceTime HD Camera Video" video_tracks="1" audio_tracks="0" alpha_track_count="1" raster_type="1919378017" square_pixel_height="720" sourceGUID="72550C07-A0B9-9E0A-FFBA-EF9F137860D6" square_pixel_width="1280"/>
+		<asset media-type="2" type="vaSourcesManager" url="vaSourcesManager::URL" unique_id="C0D52593-CBF8-411D-8FF6-F9B8A1C990FF" name="White" video_tracks="1" audio_tracks="0" alpha_track_count="1" sourceGUID="D82F793C-6F5B-3376-F53B-EF2ED8CE7F28" square_pixel_height="480" raster_type="1919378017" square_pixel_width="640"/>
+		<asset name="White" unique_id="64A38A8B-14A2-4DE2-A72E-6C12587852BB_shot" type="shot" media-type="9" vam_state="6" audio_tracks="0" still_image_tracks="0" veil_track_count="0" alpha_track_count="1" video_tracks="1" created_for_layer="2"/>
+		<asset media-type="2" type="vaSourcesManager" url="vaSourcesManager::URL" unique_id="5097517C-A032-42C5-A01F-5356B2E00308" name="Chat 1" video_tracks="1" audio_tracks="0" alpha_track_count="1" sourceGUID="065AA36C-9BD0-3D93-5164-D2CAF0B49CEC" square_pixel_width="530" square_pixel_height="400" raster_type="1919378017"/>
+		<asset media-type="2" type="vaSourcesManager" url="vaSourcesManager::URL" unique_id="3ACA4173-B8CB-4C7C-8482-FEB58B84E7AA" name="StreamLabs (TwitchAlerts) 1" video_tracks="1" audio_tracks="0" alpha_track_count="1" sourceGUID="8EA513AF-05F7-F3AE-7C93-865E8673F62C" square_pixel_height="480" raster_type="1919378017" square_pixel_width="640"/>
+		<asset name="Round" unique_id="98E61744-E09B-46AA-8EFE-CCED5F64E0F1" type="shot" media-type="9" vam_state="14" created_for_layer="1" still_image_tracks="0" veil_track_count="0" video_tracks="5" alpha_track_count="5" audio_tracks="3" sort_on_overlay="1"/>
+		<asset media-type="4" type="vaSourcesManager" url="vaSourcesManager::URL" unique_id="pc-capture~31D77434-C45D-4A2D-8558-A8560CA49C0E" name="Round" video_tracks="1" audio_tracks="1" alpha_track_count="1" square_pixel_height="1200" square_pixel_width="1920" sourceGUID="DBCA7191-2958-80F8-31D4-5F1379D8E53F" raster_type="0"/>
+		<asset name="BRB" unique_id="D52172CB-02F3-44EC-8194-1CDCBF67CF30" type="shot" media-type="9" vam_state="8" created_for_layer="1" veil_track_count="0" alpha_track_count="5" still_image_tracks="0" video_tracks="5" audio_tracks="3" sort_on_overlay="2"/>
+		<asset media-type="2" type="vaSourcesManager" url="vaSourcesManager::URL" unique_id="970A0BFE-A691-45A9-BD5A-F27A136C06E9" name="Be right back" video_tracks="1" audio_tracks="0" alpha_track_count="1" sourceGUID="508D5209-D017-B9F7-CC2C-F85260449272" square_pixel_width="478" square_pixel_height="234" raster_type="1919378017"/>
+		<asset name="Screen Shot 2018-01-24 at 15.35.18.png" url="/Users/pepellou/Pictures/Screenshots/Screen Shot 2018-01-24 at 15.35.18.png" type="file" still_image_tracks="1" media-type="1" unique_id="2F07CE65-E268-46F5-B3C3-27217C89CCA2_Screen Shot 2018-01-24 at 15.35.18.png" alpha_track_count="1" raster_type="1380401729" square_pixel_width="151" square_pixel_height="49"/>
+		<asset name="Screen Shot 2018-01-24 at 15.35.18.png" unique_id="342D238E-8D44-4268-A809-4F9EB7D4221D_shot" type="shot" media-type="9" vam_state="6" alpha_track_count="1" audio_tracks="0" video_tracks="0" still_image_tracks="1" veil_track_count="0" created_for_layer="5"/>
+	</assets>
+	<xml_tag/>
+	<shots>
+		<shot event_type="2" unique_id="161631BF-8A18-4B85-A647-9857F7D00A06_shot"/>
+		<shot event_type="2" unique_id="70934717-3961-4EAF-8D4E-5FC4205893B5_shot"/>
+		<shot event_type="2" unique_id="0A092065-20CA-4ADD-A868-954AB2EDA092_shot"/>
+		<shot event_type="2" unique_id="EE572CCF-A9E5-427A-937A-0CDEFF8AF818_shot"/>
+		<shot event_type="2" unique_id="10F35F6B-A27B-43C7-BF4E-BF5F6C4C28EA_shot"/>
+		<shot event_type="2" unique_id="1A23BE60-8C42-4A64-8A6B-D4CE2D0E2605_shot">
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" obj_trans="0" unique_id="System Device~USB PnP Sound Device Audio">
+					<event event_type="1" channel_id="1" ro_media_type="1635083375"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="10" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" ro_user_scale="0.73,0.73" obj_scale="0.493891,1.01592" obj_crop_rect="144,676,1061,676" obj_pos="1.63687,0.02" scale_ratio="0.999999" obj_rot_off="-2.55819,0" unique_id="pc-capture~93F16FF6-51A7-4119-8772-CCFE4EF2A1D3">
+					<event event_type="1" channel_id="1" ro_media_type="1635083375"/>
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="15" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" scale_ratio="0.999997" ro_user_scale="0.549998,0.55" border_decor="drop_shadow" obj_rot="0,3.14159" obj_crop_rect="200,0,200,0" obj_pos="-1.9125,0.3" unique_id="System Device~FaceTime HD Camera Video" obj_scale="0.378124,0.549998">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="20" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" ro_user_scale="0.488106,0.488105" obj_scale="0.379807,0.116603" obj_crop_rect="107,338,945,1870" obj_pos="-1.68187,2.05333" scale_ratio="1" obj_rot_off="-1.70776,2.45029" unique_id="pc-capture~93F16FF6-51A7-4119-8772-CCFE4EF2A1D3">
+					<event event_type="1" channel_id="1" ro_media_type="1635083375"/>
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="25" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="0.211493,0.283764" obj_pos="-1.96875,-1.61407" ro_user_scale="1,0.510775" scale_ratio="1.95781" unique_id="5097517C-A032-42C5-A01F-5356B2E00308">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="30" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="0.413806,0.551741" ro_user_scale="0.827611,0.827611" scale_ratio="1" obj_pos="-1.96432,0.380242" unique_id="3ACA4173-B8CB-4C7C-8482-FEB58B84E7AA">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+		</shot>
+		<shot event_type="2" unique_id="64A38A8B-14A2-4DE2-A72E-6C12587852BB_shot">
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="0.764905,1.01987" scale_ratio="1.33056" ro_user_scale="2.0355,1.52981" obj_pos="0.0597871,-0.0421884" unique_id="C0D52593-CBF8-411D-8FF6-F9B8A1C990FF">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+		</shot>
+		<shot event_type="2" unique_id="98E61744-E09B-46AA-8EFE-CCED5F64E0F1">
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" obj_trans="0" unique_id="System Device~USB PnP Sound Device Audio">
+					<event event_type="1" channel_id="1" ro_media_type="1635083375"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="10" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" ro_user_scale="0.000833333,0.000833333" obj_scale="0.00125,0.00138889" scale_ratio="1.00002" obj_pos="0.0253814,0.293948" obj_crop_rect="126720,627600,157440,386400" unique_id="pc-capture~31D77434-C45D-4A2D-8558-A8560CA49C0E">
+					<event event_type="1" channel_id="1" ro_media_type="1635083375"/>
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="15" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" scale_ratio="0.999997" ro_user_scale="0.349999,0.35" border_decor="drop_shadow" obj_rot="0,3.14159" obj_crop_rect="200,0,200,0" obj_pos="2.36387,-1.4551" obj_scale="0.240624,0.349999" unique_id="System Device~FaceTime HD Camera Video">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="20" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" ro_user_scale="0.488106,0.488105" obj_scale="0.671526,0.116603" obj_crop_rect="116,338,165,1844" obj_pos="-0.478124,2.0129" scale_ratio="1" obj_rot_off="-0.657569,2.45029" unique_id="pc-capture~93F16FF6-51A7-4119-8772-CCFE4EF2A1D3">
+					<event event_type="1" channel_id="1" ro_media_type="1635083375"/>
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="25" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="0.211493,0.283764" obj_pos="-1.96875,-1.61407" ro_user_scale="1,0.510775" scale_ratio="1.95781" unique_id="5097517C-A032-42C5-A01F-5356B2E00308">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="30" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="0.413806,0.551741" obj_pos="-1.96432,0.380242" scale_ratio="1" ro_user_scale="0.827611,0.827611" unique_id="3ACA4173-B8CB-4C7C-8482-FEB58B84E7AA">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+		</shot>
+		<shot event_type="2" unique_id="D52172CB-02F3-44EC-8194-1CDCBF67CF30">
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" obj_trans="0" unique_id="System Device~USB PnP Sound Device Audio">
+					<event event_type="1" channel_id="1" ro_media_type="1635083375"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="10" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" ro_user_scale="0.725149,0.725149" obj_scale="0.490608,1.00917" obj_crop_rect="144,676,1061,676" obj_pos="1.63624,0.0219967" scale_ratio="1" obj_rot_off="-2.54119,0" unique_id="pc-capture~93F16FF6-51A7-4119-8772-CCFE4EF2A1D3">
+					<event event_type="1" channel_id="1" ro_media_type="1635083375"/>
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="15" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" ro_user_scale="0.488106,0.488105" obj_scale="0.379807,0.116603" obj_crop_rect="107,338,945,1870" obj_pos="-1.68187,2.05333" scale_ratio="1" obj_rot_off="-1.70776,2.45029" unique_id="pc-capture~93F16FF6-51A7-4119-8772-CCFE4EF2A1D3">
+					<event event_type="1" channel_id="1" ro_media_type="1635083375"/>
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="20" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="0.211493,0.283764" obj_pos="-1.96875,-1.61407" ro_user_scale="1,0.510775" scale_ratio="1.95781" unique_id="5097517C-A032-42C5-A01F-5356B2E00308">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="25" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="0.413806,0.551741" obj_pos="-1.96432,0.380242" scale_ratio="1" ro_user_scale="0.827611,0.827611" unique_id="3ACA4173-B8CB-4C7C-8482-FEB58B84E7AA">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="30" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="0.373437,0.325" obj_pos="-1.96432,0.616514" unique_id="970A0BFE-A691-45A9-BD5A-F27A136C06E9">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+		</shot>
+		<shot event_type="2" unique_id="342D238E-8D44-4268-A809-4F9EB7D4221D_shot">
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="0.141563,0.0816667" scale_ratio="1" ro_user_scale="1.2,1.2" obj_pos="3.0945,2.2089" unique_id="2F07CE65-E268-46F5-B3C3-27217C89CCA2_Screen Shot 2018-01-24 at 15.35.18.png">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479" action_flags="24" ro_playhead="0" action_time="9733333" action_duration="0"/>
+				</event>
+			</event>
+		</shot>
+	</shots>
+</document>
