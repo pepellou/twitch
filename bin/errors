@@ -1,0 +1,8 @@
+#!/bin/bash
+DIR_ERRORS="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+NO_ERROR=0
+
+ERROR_WRONG_SYNTAX=1
+
+ERROR_KO=999

@@ -1,0 +1,58 @@
+#!/bin/bash
+calling_script=$(echo $1 | awk 'BEGIN {FS="/"} {print $NF}')
+
+red="\033[0;31m"
+green="\033[0;32m"
+orange="\033[0;33m"
+blue="\033[0;34m"
+purple="\033[0;35m"
+cyan="\033[0;36m"
+clean="\033[0m"
+
+message() {
+	text=$1
+
+	echo -en "[${orange}${calling_script}${clean}] $text\n"
+}
+
+line() {
+    color=$1
+	text=$2
+
+    echo -en "${color}${text}${clean}\n"
+}
+
+info() {
+	label=$1
+	text=$2
+
+	echo -en "[${orange}${label}${clean}] $text\n"
+}
+
+item() {
+    color=$1
+	element=$2
+    counter=$3
+
+    echo -en "   ${counter}) ${color}${element}${clean}\n"
+}
+
+explain() {
+	description=$1
+
+	echo
+	message "$description"
+	echo
+}
+
+ask_for() {
+	what=$1
+
+	echo -en "${red}${what}${clean}? "
+}
+
+error() {
+    message=$1
+
+    echo -e "${red}ERROR: ${message}${clean}"
+}

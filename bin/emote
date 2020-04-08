@@ -1,0 +1,24 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+. ${DIR}/messages $0
+. ${DIR}/errors
+
+image=$1
+
+[ "$image" == "" ] && {
+    error "You must provide an image to use as emote"
+    exit 1
+}
+
+fileName=$(echo $image | awk 'BEGIN { FS="/" } { print $NF }')
+echo -e "Preparing image ${green}${image}${clean} (${blue}${fileName}${clean})"
+
+width=$(identify $image | awk '{ print $3 }' | awk 'BEGIN { FS="x" } { print $1 }')
+size112=$(php -r "echo number_format(11200 / $width, 4);")
+size56=$(php -r "echo number_format(5600 / $width, 4);")
+size28=$(php -r "echo number_format(2800 / $width, 4);")
+
+convert ${image} -resize ${size112}% emotes/112x112/${fileName}
+convert ${image} -resize ${size56}% emotes/56x56/${fileName}
+convert ${image} -resize ${size28}% emotes/28x28/${fileName}
