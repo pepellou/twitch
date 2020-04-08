@@ -1,0 +1,260 @@
+
+500 followers celebration
+-------------------------
+
+What to do??
+
+Before tomorrow:
+
+  ☑ Add lists of challenges to Nightbot @created(Sun 08/05/2018 - 00:34)
+  ☑ Add commands to Nightbot to ease the requests for challenges @created(Sun 08/05/2018 - 00:34)
+    Do a command for a random pick
+  ☑ Recover !sr commands in Nightbot
+    Give mods a !skip command to skip troll songs
+  ☑ Setup a command to randomly pick a piece (let's remember to put 8 pawns, 2 bishops, etc)
+  ☑ Prepare list of openings to allow viewers to pick one to learn
+  ☑ Prepare own winner command (Nightbot one is suspicious)
+
+  ☐ Area on the stream layout to show what challenge are we running
+  ☐ Area on the stream layout to show pieces names when we have "special" pieces names
+  ☐ Party hat
+  ☐ Set up dog cam @created(Sun 08/05/2018 - 00:35)
+
+!piece:
+    $(eval const responses = [ 'Pawn','Pawn','Pawn','Pawn','Pawn','Knight','Knight','Knight','Knight','Bishop','Bishop','Bishop','Bishop','Rook','Rook','Rook','Rook','Rook','Rook','Queen''Queen',,'Queen','King','King','King','King' ]; responses[Math.floor(Math.random() * responses.length)];)
+!brain:
+    $(eval var r=[ 'Pawn','Pawn','Pawn','Pawn','Pawn','Knight','Knight','Knight','Knight','Bishop','Bishop','Bishop','Bishop','Rook','Rook','Rook','Rook','Rook','Rook','Queen','Queen','Queen','King','King','King','King' ];var f=function(){return r[Math.floor(Math.random()*r.length)];};f()+','+f()+','+f()+','+f()+','+f();)
+!challenge:
+    $(eval var r=['Bullet left hand','Mirror mouse','Board flipped','Flipped blindfold','Mandatory captures','Only Attacking/taking A/C/E/G pawns','Flip every move,blindfold','Cannot take pawns','Changed pieces names,if wrong->sac','Crazyhouse no dropping pieces','Say opposite of move (eg: play e4,say d5)','Get fools mated','Forbidden pawns','Hand&brain w/Nightbot','Bullet input by keyboard','Premove every other move','Ask opponent for moves'];r[Math.floor(Math.random()*r.length)];)
+!troll:
+    $(eval var r=['h4, Rh3','e4, Ke2','f3, Kf2','a4, h4','First 4 moves with knight','Only defend, not attack','Prevent captures/trades','No surpass 3rd rank until move 15','Develop 4 moves, then undevelop','Go for scholars mate','Teach wrong rules','Ask for takeback, but repeat move','Compliment every opponents move'];r[Math.floor(Math.random()*r.length)];)
+!learn:
+!addopening King's Pawn https://lichess.org/editor/rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR_b_KQkq_e3_1_1
+!addopening Open Game https://lichess.org/editor/rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR_w_KQkq_-_0_2
+!addopening Alekhine's Defence https://lichess.org/editor/rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR_w_KQkq_-_2_2
+!addopening Alekhine's Defence: Modern Variation https://lichess.org/editor/rnbqkb1r/ppp1pppp/3p4/3nP3/3P4/5N2/PPP2PPP/RNBQKB1R_b_KQkq_-_1_4
+!addopening Bishop's Opening https://lichess.org/editor/rnbqkbnr/pppp1ppp/8/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR_b_KQkq_-_2_2
+!addopening Caro-Kann Defence https://lichess.org/editor/rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR_w_KQkq_-_1_2
+!addopening Caro-Kann Defence: Advance Variation https://lichess.org/editor/rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR_b_KQkq_-_1_3
+!addopening Caro-Kann Defence: Classical Variation https://lichess.org/editor/rn1qkbnr/pp2pppp/2p5/5b2/3PN3/8/PPP2PPP/R1BQKBNR_w_KQkq_-_2_5
+!addopening Caro-Kann Defence: Exchange Variation https://lichess.org/editor/rnbqkbnr/pp2pppp/2p5/3P4/3P4/8/PPP2PPP/RNBQKBNR_b_KQkq_-_1_3
+!addopening Caro-Kann Defence: Panov-Botvinnik Attack https://lichess.org/editor/rnbqkb1r/pp3ppp/4pn2/3p4/2PP4/2N5/PP3PPP/R1BQKBNR_w_KQkq_-_1_6
+!addopening Caro-Kann Defence: Steinitz Variation https://lichess.org/editor/rnbqkb1r/pp3ppp/4pn2/3p4/2PP4/2N5/PP3PPP/R1BQKBNR_w_KQkq_-_1_6
+!addopening Danish Gambit https://lichess.org/editor/rnbqkbnr/pppp1ppp/8/8/3pP3/2P5/PP3PPP/RNBQKBNR_b_KQkq_-_1_3
+!addopening Four Knights Game https://lichess.org/editor/r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R_w_KQkq_-_5_4
+!addopening Four Knights Game: Scotch Variation https://lichess.org/editor/r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/2N2N2/PPP2PPP/R1BQKB1R_b_KQkq_d3_1_4
+!addopening Four Knights Game: Spanish Variation https://lichess.org/editor/r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/2N2N2/PPPP1PPP/R1BQK2R_b_KQkq_-_0_4
+!addopening French Defence https://lichess.org/editor/rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR_w_KQkq_-_1_2
+!addopening French Defence: Advance Variation https://lichess.org/editor/rnbqkbnr/ppp2ppp/4p3/3pP3/3P4/8/PPP2PPP/RNBQKBNR_b_KQkq_-_1_3
+!addopening French Defence: Burn Variation https://lichess.org/editor/rnbqkb1r/ppp2ppp/4pn2/3p2B1/3PP3/2N5/PPP2PPP/R2QKBNR_b_KQkq_-_1_4
+!addopening French Defence: Classical Variation https://lichess.org/editor/rnbqkb1r/ppp2ppp/4pn2/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR_w_KQkq_-_3_4
+!addopening French Defence: Exchange Variation https://lichess.org/editor/rnbqkbnr/ppp2ppp/4p3/3P4/3P4/8/PPP2PPP/RNBQKBNR_b_KQkq_-_1_3
+!addopening French Defence: Rubinstein Variation https://lichess.org/editor/rnbqkbnr/ppp2ppp/4p3/8/3Pp3/2N5/PPP2PPP/R1BQKBNR_w_KQkq_-_1_4
+!addopening French Defence: Tarrasch Variation https://lichess.org/editor/rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPPN1PPP/R1BQKBNR_b_KQkq_-_2_3
+!addopening French Defence: Winawer Variation https://lichess.org/editor/rnbqk1nr/ppp2ppp/4p3/3p4/1b1PP3/2N5/PPP2PPP/R1BQKBNR_w_KQkq_-_3_4
+!addopening Giuoco Piano https://lichess.org/editor/r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R_w_KQkq_-_5_4
+!addopening Italian Game https://lichess.org/editor/r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R_b_KQkq_-_4_3
+!addopening Italian Game: Evans Gambit https://lichess.org/editor/r1bqk1nr/pppp1ppp/2n5/2b1p3/1PB1P3/5N2/P1PP1PPP/RNBQK2R_b_KQkq_b3_1_4
+!addopening Italian Game: Hungarian Defence https://lichess.org/editor/r1bqk1nr/ppppbppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R_w_KQkq_-_5_4
+!addopening Italian Game: Two Knights Defence https://lichess.org/editor/r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R_w_KQkq_-_5_4
+!addopening King's Gambit https://lichess.org/editor/rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR_b_KQkq_f3_1_2
+!addopening King's Gambit Accepted https://lichess.org/editor/rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPP2PP/RNBQKBNR_w_KQkq_-_1_3
+!addopening King's Gambit Accepted: Bishop's Gambit https://lichess.org/editor/rnbqkbnr/pppp1ppp/8/8/2B1Pp2/8/PPPP2PP/RNBQK1NR_b_KQkq_-_2_3
+!addopening King's Gambit Accepted: Modern Defence https://lichess.org/editor/rnbqkbnr/ppp2ppp/8/3p4/4Pp2/5N2/PPPP2PP/RNBQKB1R_w_KQkq_d6_1_4
+!addopening King's Gambit Accepted: Classical Variation https://lichess.org/editor/rnbqkbnr/pppp1p1p/8/6p1/4Pp2/5N2/PPPP2PP/RNBQKB1R_w_KQkq_-_0_4
+!addopening King's Gambit Declined: Classical Variation https://lichess.org/editor/rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/8/PPPP2PP/RNBQKBNR_w_KQkq_-_2_3
+!addopening King's Gambit Declined: Falkbeer Countergambit https://lichess.org/editor/rnbqkbnr/ppp2ppp/8/3pp3/4PP2/8/PPPP2PP/RNBQKBNR_w_KQkq_d6_1_3
+!addopening Modern Defence https://lichess.org/editor/rnbqkbnr/pppppp1p/6p1/8/4P3/8/PPPP1PPP/RNBQKBNR_w_KQkq_-_0_2
+!addopening Modern Defence: Robatsch Defence https://lichess.org/editor/rnbqk1nr/ppppppbp/6p1/8/3PP3/2N5/PPP2PPP/R1BQKBNR_b_KQkq_-_0_3
+!addopening Philidor Defence https://lichess.org/editor/rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R_w_KQkq_-_1_3
+!addopening Pirc Defence https://lichess.org/editor/rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/8/PPP2PPP/RNBQKBNR_w_KQkq_-_2_3
+!addopening Pirc Defence: Austrian Attack https://lichess.org/editor/rnbqkb1r/ppp1pp1p/3p1np1/8/3PPP2/2N5/PPP3PP/R1BQKBNR_b_KQkq_f3_1_4
+!addopening Pirc Defence: Classical Variation https://lichess.org/editor/rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N2N2/PPP2PPP/R1BQKB1R_b_KQkq_-_2_4
+!addopening Petrov's Defence https://lichess.org/editor/rnbqkb1r/pppp1ppp/5n2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R_w_KQkq_-_3_3
+!addopening Petrov's Defence: Classical Attack https://lichess.org/editor/rnbqkb1r/ppp2ppp/3p4/8/3Pn3/5N2/PPP2PPP/RNBQKB1R_b_KQkq_d3_1_5
+!addopening Petrov's Defence: Steinitz Attack https://lichess.org/editor/rnbqkb1r/pppp1ppp/5n2/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R_b_KQkq_d3_1_3
+!addopening Petrov's Defence: Three Knights Game https://lichess.org/editor/rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R_b_KQkq_-_4_3
+!addopening Ruy Lopez https://lichess.org/editor/r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R_b_KQkq_-_4_3
+!addopening Ruy Lopez: Berlin Defence https://lichess.org/editor/r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R_w_KQkq_-_5_4
+!addopening Ruy Lopez: Classical Variation https://lichess.org/editor/r1bqk1nr/pppp1ppp/2n5/1Bb1p3/4P3/5N2/PPPP1PPP/RNBQK2R_w_KQkq_-_5_4
+!addopening Ruy Lopez: Closed Variation https://lichess.org/editor/r1bqk2r/2ppbppp/p1n2n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1_b_kq_-_0_7
+!addopening Ruy Lopez: Exchange Variation https://lichess.org/editor/r1bqkbnr/1ppp1ppp/p1B5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R_b_KQkq_-_1_4
+!addopening Ruy Lopez: Marshall Attack https://lichess.org/editor/r1bq1rk1/2p1bppp/p1n2n2/1p1pp3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1_w_-_-_0_9
+!addopening Ruy Lopez: Schliemann Defence https://lichess.org/editor/r1bqkbnr/pppp2pp/2n5/1B2pp2/4P3/5N2/PPPP1PPP/RNBQK2R_w_KQkq_f6_1_4
+!addopening Scandinavian Defence https://lichess.org/editor/rnbqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/RNBQKBNR_w_KQkq_d6_1_2
+!addopening Scandinavian Defence: Modern Variation https://lichess.org/editor/rnbqkb1r/ppp1pppp/5n2/3P4/3P4/8/PPP2PPP/RNBQKBNR_b_KQkq_-_0_3
+!addopening Scotch Game https://lichess.org/editor/r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R_b_KQkq_d3_1_3
+!addopening Scotch Game: Classical Variation https://lichess.org/editor/r1bqk1nr/pppp1ppp/2n5/2b5/3NP3/8/PPP2PPP/RNBQKB1R_w_KQkq_-_2_5
+!addopening Scotch Game: Mieses Variation https://lichess.org/editor/r1bqkb1r/p1pp1ppp/2p2n2/4P3/8/8/PPP2PPP/RNBQKB1R_b_KQkq_-_1_6
+!addopening Scotch Game: Steinitz Variation https://lichess.org/editor/r1b1kbnr/pppp1ppp/2n5/8/3NP2q/8/PPP2PPP/RNBQKB1R_w_KQkq_-_2_5
+!addopening Sicilian Defence https://lichess.org/editor/rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR_w_KQkq_c6_1_2
+!addopening Sicilian Defence: Accelerated Dragon https://lichess.org/editor/r1bqkbnr/pp1ppp1p/2n3p1/8/3NP3/8/PPP2PPP/RNBQKB1R_w_KQkq_-_1_5
+!addopening Sicilian Defence: Alapin Variation https://lichess.org/editor/rnbqkbnr/pp1ppppp/8/2p5/4P3/2P5/PP1P1PPP/RNBQKBNR_b_KQkq_-_1_2
+!addopening Sicilian Defence: Closed Variation https://lichess.org/editor/rnbqkbnr/pp1ppppp/8/2p5/4P3/2N5/PPPP1PPP/R1BQKBNR_b_KQkq_-_2_2
+!addopening Sicilian Defence: Dragon Variation https://lichess.org/editor/rnbqkb1r/pp2pp1p/3p1np1/8/3NP3/2N5/PPP2PPP/R1BQKB1R_w_KQkq_-_1_6
+!addopening Sicilian Defence: Grand Prix Attack https://lichess.org/editor/r1bqkbnr/pp1ppppp/2n5/2p5/4PP2/2N5/PPPP2PP/R1BQKBNR_b_KQkq_f3_1_3
+!addopening Sicilian Defence: Hyper-Accelerated Dragon https://lichess.org/editor/rnbqkbnr/pp1ppp1p/6p1/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R_w_KQkq_-_1_2
+!addopening Sicilian Defence: Kan Variation https://lichess.org/editor/rnbqkbnr/1p1p1ppp/p3p3/8/3NP3/8/PPP2PPP/RNBQKB1R_w_KQkq_-_1_5
+!addopening Sicilian Defence: Najdorf Variation https://lichess.org/editor/rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R_w_KQkq_-_1_6
+!addopening Sicilian Defence: Richter-Rauzer Variation https://lichess.org/editor/r1bqkb1r/pp2pppp/2np1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R_b_KQkq_-_5_6
+!addopening Sicilian Defence: Scheveningen Variation https://lichess.org/editor/rnbqkb1r/pp3ppp/3ppn2/8/3NP3/2N5/PPP2PPP/R1BQKB1R_w_KQkq_-_1_6
+!addopening Sicilian Defence: Smith-Morra Gambit https://lichess.org/editor/rnbqkbnr/pp1ppppp/8/8/3pP3/2P5/PP3PPP/RNBQKBNR_b_KQkq_-_1_3
+!addopening Vienna Game https://lichess.org/editor/rnbqkbnr/pppp1ppp/8/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR_b_KQkq_-_2_2
+!addopening Frankenstein-Dracula Variation https://lichess.org/editor/rnbqkb1r/pppp1ppp/8/4p3/2B1n3/2N5/PPPP1PPP/R1BQK1NR_w_KQkq_-_0_4
+!addopening Halloween Gambit https://lichess.org/editor/r1bqkb1r/pppp1ppp/2n2n2/4N3/4P3/2N5/PPPP1PPP/R1BQKB1R_b_KQkq_-_1_4
+!addopening Bongcloud Attack https://lichess.org/editor/rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPPKPPP/RNBQ1BNR_b_kq_-_0_2
+!addopening Queen's Pawn https://lichess.org/editor/rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR_b_KQkq_d3_1_1
+!addopening Benko Gambit https://lichess.org/editor/rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/8/PP2PPPP/RNBQKBNR_w_KQkq_b6_1_4
+!addopening Benoni Defence: Modern Benoni https://lichess.org/editor/rnbqkb1r/pp1p1ppp/4pn2/2pP4/2P5/8/PP2PPPP/RNBQKBNR_w_KQkq_-_0_4
+!addopening Benoni Defence: Czech Benoni https://lichess.org/editor/rnbqkb1r/pp1p1ppp/5n2/2pPp3/2P5/8/PP2PPPP/RNBQKBNR_w_KQkq_-_0_4
+!addopening Blackmar-Diemer Gambit https://lichess.org/editor/rnbqkbnr/ppp1pppp/8/3p4/3PP3/8/PPP2PPP/RNBQKBNR_b_KQkq_e3_1_2
+!addopening Bogo-Indian Defence https://lichess.org/editor/rnbqk2r/pppp1ppp/4pn2/8/1bPP4/5N2/PP2PPPP/RNBQKB1R_w_KQkq_-_3_4
+!addopening Catalan Opening https://lichess.org/editor/rnbqkb1r/pppp1ppp/4pn2/8/2PP4/6P1/PP2PP1P/RNBQKBNR_b_KQkq_-_1_3
+!addopening Catalan Opening: Closed Variation https://lichess.org/editor/rnbqk2r/ppp1bppp/4pn2/3p4/2PP4/5NP1/PP2PPBP/RNBQK2R_b_KQkq_-_4_5
+!addopening Dutch Defence https://lichess.org/editor/rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQKBNR_w_KQkq_f6_1_2
+!addopening Dutch Defence: Leningrad Variation https://lichess.org/editor/rnbqk2r/ppppp1bp/5np1/5p2/2PP4/5NP1/PP2PPBP/RNBQK2R_b_KQkq_-_4_5
+!addopening Dutch Defence: Staunton Gambit https://lichess.org/editor/rnbqkb1r/ppppp1pp/5n2/6B1/3Pp3/2N5/PPP2PPP/R2QKBNR_b_KQkq_-_4_4
+!addopening Dutch Defence: Stonewall Variation https://lichess.org/editor/rnbq1rk1/ppp1b1pp/4pn2/3p1p2/2PP4/5NP1/PP2PPBP/RNBQ1RK1_w_-_d6_1_7
+!addopening Grünfeld Defence https://lichess.org/editor/rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR_w_KQkq_d6_1_4
+!addopening Grünfeld Defence: Brinckmann Attack https://lichess.org/editor/rnbqkb1r/ppp1pp1p/5np1/3p4/2PP1B2/2N5/PP2PPPP/R2QKBNR_b_KQkq_-_2_4
+!addopening Grünfeld Defence: Exchange Variation https://lichess.org/editor/rnbqkb1r/ppp1pp1p/6p1/3n4/3P4/2N5/PP2PPPP/R1BQKBNR_w_KQkq_-_1_5
+!addopening Grünfeld Defence: Russian Variation https://lichess.org/editor/rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/1QN5/PP2PPPP/R1B1KBNR_b_KQkq_-_0_4
+!addopening Grünfeld Defence: Taimanov Variation https://lichess.org/editor/rnbqk2r/ppp1ppbp/5np1/3p2B1/2PP4/2N2N2/PP2PPPP/R2QKB1R_b_KQkq_-_0_5
+!addopening King's Indian Defence https://lichess.org/editor/rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR_w_KQkq_-_1_3
+!addopening King's Indian Defence: 4.e4 https://lichess.org/editor/rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR_w_KQkq_-_1_5
+!addopening King's Indian Defence: Averbakh Variation https://lichess.org/editor/rnbq1rk1/ppp1ppbp/3p1np1/6B1/2PPP3/2N5/PP2BPPP/R2QK1NR_b_KQ_-_4_6
+!addopening King's Indian Defence: Fianchetto Variation https://lichess.org/editor/rnbqk2r/ppp1ppbp/3p1np1/8/2PP4/2N2NP1/PP2PP1P/R1BQKB1R_b_KQkq_-_1_5
+!addopening King's Indian Defence: Four Pawns Attack https://lichess.org/editor/rnbqk2r/ppp1ppbp/3p1np1/8/2PPPP2/2N5/PP4PP/R1BQKBNR_b_KQkq_f3_1_5
+!addopening King's Indian Defence: Classical Variation https://lichess.org/editor/rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R_b_KQ_-_4_6
+!addopening King's Indian Defence: Sämisch Variation https://lichess.org/editor/rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N2P2/PP4PP/R1BQKBNR_b_KQkq_-_1_5
+!addopening Queens's Pawn Game: Modern Defence https://lichess.org/editor/rnbqk1nr/ppp1ppbp/3p2p1/8/2PP4/2N5/PP2PPPP/R1BQKBNR_w_KQkq_-_1_4
+!addopening Nimzo-Indian Defence https://lichess.org/editor/rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR_w_KQkq_-_3_4
+!addopening Nimzo-Indian Defence: Classical Variation https://lichess.org/editor/rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR_b_KQkq_-_4_4
+!addopening Nimzo-Indian Defence: Fischer Variation https://lichess.org/editor/rnbqk2r/p1pp1ppp/1p2pn2/8/1bPP4/2N1P3/PP3PPP/R1BQKBNR_w_KQkq_-_0_5
+!addopening Nimzo-Indian Defence: Hübner Variation https://lichess.org/editor/r1bqk2r/pp3ppp/2nppn2/2p5/2PP4/2PBPN2/P4PPP/R1BQK2R_w_KQkq_-_0_8
+!addopening Nimzo-Indian Defence: Kasparov Variation https://lichess.org/editor/rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N2N2/PP2PPPP/R1BQKB1R_b_KQkq_-_0_4
+!addopening Nimzo-Indian Defence: Leningrad Variation https://lichess.org/editor/rnbqk2r/pppp1ppp/4pn2/6B1/1bPP4/2N5/PP2PPPP/R2QKBNR_b_KQkq_-_0_4
+!addopening Nimzo-Indian Defence: Sämisch Variation https://lichess.org/editor/rnbqk2r/pppp1ppp/4pn2/8/2PP4/P1P5/4PPPP/R1BQKBNR_b_KQkq_-_0_5
+!addopening Old Indian Defence https://lichess.org/editor/rnbqkb1r/ppp1pppp/3p1n2/8/2PP4/8/PP2PPPP/RNBQKBNR_w_KQkq_-_1_3
+!addopening Queen's Gambit https://lichess.org/editor/rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR_b_KQkq_c3_1_2
+!addopening Queen's Gambit Accepted https://lichess.org/editor/rnbqkbnr/ppp1pppp/8/8/2pP4/8/PP2PPPP/RNBQKBNR_w_KQkq_-_1_3
+!addopening Queen's Gambit Declined: Semi-Slav Defence https://lichess.org/editor/rnbqkb1r/pp3ppp/2p1pn2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R_w_KQkq_-_1_5
+!addopening Queen's Gambit Declined: Slav Defence https://lichess.org/editor/rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR_w_KQkq_-_0_3
+!addopening Queen's Gambit Declined: Semi-Tarrasch Defence https://lichess.org/editor/rnbqkb1r/pp3ppp/4pn2/2pp4/2PP4/2N2N2/PP2PPPP/R1BQKB1R_w_KQkq_c6_1_5
+!addopening Queen's Gambit Declined: Tarrasch Defence https://lichess.org/editor/rnbqkbnr/pp3ppp/4p3/2pp4/2PP4/2N5/PP2PPPP/R1BQKBNR_w_KQkq_-_0_4
+!addopening Queen's Gambit Declined: Albin Countergambit https://lichess.org/editor/rnbqkbnr/ppp2ppp/8/3pp3/2PP4/8/PP2PPPP/RNBQKBNR_w_KQkq_e6_1_3
+!addopening Queen's Gambit Declined: Chigorin Defence https://lichess.org/editor/r1bqkbnr/ppp1pppp/2n5/3p4/2PP4/8/PP2PPPP/RNBQKBNR_w_KQkq_-_2_3
+!addopening Queen's Indian Defence https://lichess.org/editor/rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5N2/PP2PPPP/RNBQKB1R_w_KQkq_-_1_4
+!addopening London System https://lichess.org/editor/rnbqkb1r/ppp1pppp/5n2/3p4/3P1B2/5N2/PPP1PPPP/RN1QKB1R_b_KQkq_-_4_3
+!addopening Torre Attack https://lichess.org/editor/rnbqkb1r/ppp1pppp/5n2/3p2B1/3P4/5N2/PPP1PPPP/RN1QKB1R_b_KQkq_-_4_3
+!addopening Richter-Veresov Attack https://lichess.org/editor/rnbqkb1r/ppp1pppp/5n2/3p2B1/3P4/2N5/PPP1PPPP/R2QKBNR_b_KQkq_-_4_3
+!addopening Budapest Defence https://lichess.org/editor/rnbqkb1r/pppp1ppp/5n2/4p3/2PP4/8/PP2PPPP/RNBQKBNR_w_KQkq_-_0_3
+!addopening Closed Game https://lichess.org/editor/rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR_w_KQkq_-_0_2
+!addopening Trompowsky Attack https://lichess.org/editor/rnbqkb1r/pppppppp/5n2/6B1/3P4/8/PPP1PPPP/RN1QKBNR_b_KQkq_-_3_2
+!addopening Zukertort Opening https://lichess.org/editor/rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R_b_KQkq_-_1_1
+!addopening King's Indian Attack https://lichess.org/editor/rnbqkbnr/ppp1pppp/8/3p4/8/5NP1/PPPPPP1P/RNBQKB1R_b_KQkq_-_1_2
+!addopening Réti Opening https://lichess.org/editor/rnbqkbnr/ppp1pppp/8/3p4/2P5/5N2/PP1PPPPP/RNBQKB1R_b_KQkq_c3_1_2
+!addopening English Opening https://lichess.org/editor/rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR_b_KQkq_c3_1_1
+!addopening English Opening: Reversed Sicilian https://lichess.org/editor/rnbqkbnr/pppp1ppp/8/4p3/2P5/8/PP1PPPPP/RNBQKBNR_w_KQkq_e6_1_2
+!addopening English Opening: Symmetrical Variation https://lichess.org/editor/rnbqkbnr/pp1ppppp/8/2p5/2P5/8/PP1PPPPP/RNBQKBNR_w_KQkq_c6_1_2
+!addopening English Opening: Closed System https://lichess.org/editor/r1bqk1nr/ppp2pbp/2np2p1/4p3/2P5/2NP2P1/PP2PPBP/R1BQK1NR_w_KQkq_-_0_6
+!addopening Nimzo-Larsen Attack https://lichess.org/editor/rnbqkbnr/pppppppp/8/8/8/1P6/P1PPPPPP/RNBQKBNR_b_KQkq_-_1_1
+!addopening Hungarian Opening https://lichess.org/editor/rnbqkbnr/pppppppp/8/8/8/6P1/PPPPPP1P/RNBQKBNR_b_KQkq_-_1_1
+
+
+Ideas:
+
+  ☐ Just playing chess @created(Sat 08/04/2018 - 23:54)
+
+  ☐ Viewer request music @created(Sat 08/04/2018 - 23:54)
+
+  ☐ Puzzles @created(Sat 08/04/2018 - 23:55)
+
+  ☐ Learn opening, viewer choice @created(Sat 08/04/2018 - 23:55)
+
+  ☐ Bring Fito on the stream @created(Sat 08/04/2018 - 23:55)
+
+  ☐ Cheating without gettint caught Kappa @created(Sat 08/04/2018 - 23:57)
+
+  ☐ Group VS pepellou @created(Sat 08/04/2018 - 23:57)
+
+  ☐ "Water" games (drink when losing/winning ...) @created(Sat 08/04/2018 - 23:57)
+
+  ☐ Troll Pepe @created(Sun 08/05/2018 - 00:11)
+
+      ☐ Bullet with the left hand @created(Sat 08/04/2018 - 23:59)
+      ☐ Mirror mouse @created(Sun 08/05/2018 - 00:11)
+      ☐ Play games flipping board @created(Sun 08/05/2018 - 00:12)
+      ☐ Flipped blindfolded @created(Sun 08/05/2018 - 00:12)
+      ☐ When I can capture, I must @created(Sun 08/05/2018 - 00:13)
+      ☐ only Attacking/taking A/C/E/G pawns before getting checkmate @created(Sun 08/05/2018 - 00:14)
+      ☐ Only move on from a challenge when we get a win @created(Sun 08/05/2018 - 00:15)
+      ☐ Flip the board every move, blindfolded @created(Sun 08/05/2018 - 00:15)
+      ☐ A game where you're not allowed to take any pawns @created(Sun 08/05/2018 - 00:16)
+      ☐ Drink shot of vodka after every bullet win
+        @kuartillo brings vodka
+      ☐ Chat chooses names for pieces, if you call a piece wrong name, you have to sac it
+        Opponent pieces with regular names:
+        Queen - Kuartillo
+        King - Pepe
+        Pawn - Lordsakujo >> OR all pawns have different names
+      ☐ Play crazyhouse without dropping pieces @created(Sun 08/05/2018 - 00:22)
+      ☐ Say the opposite of my move (eg: I play e4, I say d5)
+      ☐ Try to get fools mated
+      ☐ chat chooses one of opponent's pawns you can't capture, and one of yours you can't move
+      ☐ Hand and brain with Nightbot as brain
+      ☐ Bullet with input by keyboard
+      ☐ A game where you have to premove every other move
+      ☐ Ask your opponent for moves, then move that (lichess chat)
+
+  ☐ Simul with all different variants @created(Sun 08/05/2018 - 00:25)
+
+  ☐ Stream from park and chess hustler tourists @created(Sun 08/05/2018 - 00:16)
+
+  ☐ Bits for shots @created(Sun 08/05/2018 - 00:00)
+
+  ☐ Pepe wears a party hat @created(Sun 08/05/2018 - 00:01)
+
+  ☐ Troll opponents @created(Sun 08/05/2018 - 00:01)
+    ☐ With moves
+        h4, Rh3
+        e4, Ke2
+        f3, Kf2
+        First 4 moves knight moves
+        Only defending, not attacking
+        Try to prevent all captures/trades
+        Not allowed to surpass 3rd rank until move X
+        Develop 3 or 4 moves, then undevelop
+        Go for scholars mate (in classical)
+    ☐ Find person with lowest rating on lichess and teach him chess for 1hour
+    ☐ take a person who wants to learn chess and teach them wrong rules
+    ☐ Win a game where we only jump out knight back and forth for as long as possible
+    ☐ Ask for takeback, if granted do the same move again
+    ☐ Play a game where you compliments all your opponents moves and explains to him why they are good moves
+
+  ☐ Longest mate @created(Sun 08/05/2018 - 00:05)
+    Maybe just play around, no checkmate when there's one??
+
+  ☐ How many queens can we get on the board? @created(Sun 08/05/2018 - 00:09)
+
+  ☐ Back cam OR dog cam @created(Sun 08/05/2018 - 00:03)
+
+  ☐ Blindfold @created(Sun 08/05/2018 - 00:07)
+
+  ☐ Hand and brain with the chat @created(Sun 08/05/2018 - 00:09)
+    First response is the one that counts
+
+  ☐ Real OTB game with @kuartillo @created(Sun 08/05/2018 - 00:10)
+    Punch before every move / Chessboxing??
+
+  ☐ Hand and brain with stockfish 9 @created(Sun 08/05/2018 - 00:57)
+    Someone sees stockfish suggestion, tells Pepe the piece name
+    Casual
+
+  ☐ Impersonate famous player's character and/or style @created(Sun 08/05/2018 - 01:00)
+
+  ☐ Mod a random viewer @created(Sun 08/05/2018 - 01:06)
+
+  ☐ Poll with viewers to set lichess background @created(Sun 08/05/2018 - 01:29)
+
+

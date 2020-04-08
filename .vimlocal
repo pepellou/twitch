@@ -1,0 +1,12 @@
+autocmd FileType text setlocal textwidth=0
+
+map <F2> o  ☐  @created(<C-R>=strftime('%a %m/%d/%Y - %H:%M')<CR>)<CR>k0wla
+map <F3> ?☐<CR>r☑w:noh<CR>
+
+e ps.txt
+:highlight CreatedTag term=inverse,bold cterm=bold ctermfg=red gui=bold guibg=red guifg=white
+:highlight TaskGroup term=inverse,bold cterm=bold ctermfg=green gui=bold guibg=green guifg=white
+:highlight Url term=inverse,bold cterm=bold ctermfg=blue gui=bold guibg=blue guifg=white
+:syntax match CreatedTag /@created(.*)/
+:syntax match TaskGroup /^[^ ].*:$/
+:syntax match Url /http[^ ]*/
